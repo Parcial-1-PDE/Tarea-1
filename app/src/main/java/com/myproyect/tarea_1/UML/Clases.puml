@@ -1,0 +1,26 @@
+@startuml
+class MainActivity {
+    - EditText etTarea
+    - Button btnAgregar
+    - Button btnPendientes
+    - Button btnHechas
+    - ListView lvTareas
+    - ArrayList<String> tareasPendientes
+    - ArrayList<String> tareasHechas
+    - ArrayAdapter<String> adapterPendientes
+    - ArrayAdapter<String> adapterHechas
+    - boolean mostrandoPendientes
+    + void onCreate(Bundle savedInstanceState)
+    + void mostrarPendientes()
+    + void mostrarHechas()
+    + void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo)
+    + boolean onContextItemSelected(MenuItem item)
+}
+
+class Menu {
+    + void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo)
+    + boolean onContextItemSelected(MenuItem item)
+}
+
+MainActivity --> Menu : utiliza >
+@enduml

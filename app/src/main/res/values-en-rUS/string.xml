@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Task List</string>
+    <string name="hint_etTarea">Add a task</string>
+    <string name="text_btnAgregar">Add</string>
+    <string name="text_btnPendientes">Pending</string>
+    <string name="text_btnHechas">Done</string>
+    <string name="menu_eliminar">Delete</string>
+    <string name="menu_hecho">Mark as Done</string>
+</resources>

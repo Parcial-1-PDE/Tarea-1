@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lista de Tareas</string>
+    <string name="hint_etTarea">Añadir una tarea</string>
+    <string name="text_btnAgregar">Añadir</string>
+    <string name="text_btnPendientes">Pendienes</string>
+    <string name="text_btnHechas">Hechas</string>
+    <string name="menu_eliminar">Eliminar</string>
+    <string name="menu_hecho">Hecho</string>
+</resources>
+

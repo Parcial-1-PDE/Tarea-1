@@ -2,8 +2,8 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/eliminar"
-        android:title="Eliminar" />
+        android:title="@string/menu_eliminar" />
     <item
         android:id="@+id/hecho"
-        android:title="Hecho" />
+        android:title="@string/menu_hecho" />
 </menu>

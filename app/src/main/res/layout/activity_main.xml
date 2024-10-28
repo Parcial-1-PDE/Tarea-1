@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -11,13 +10,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:minHeight="48dp"
-        android:hint="Añadir una tarea" />
+        android:hint="@string/hint_etTarea" />
 
     <Button
         android:id="@+id/btnAgregar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Añadir" />
+        android:text="@string/text_btnAgregar" />
 
     <ListView
         android:id="@+id/lvTareas"
@@ -35,13 +34,13 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Pendientes" />
+            android:text="@string/text_btnPendientes" />
 
         <Button
             android:id="@+id/btnHechas"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Hechas" />
+            android:text="@string/text_btnHechas" />
     </LinearLayout>
 </LinearLayout>

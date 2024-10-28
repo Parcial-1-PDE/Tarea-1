@@ -1,0 +1,16 @@
+@startuml
+actor Usuario
+
+usecase "Agregar Tarea" as UC_Agregar
+usecase "Marcar Tarea como Hecha" as UC_MarcarHecha
+usecase "Eliminar Tarea" as UC_Eliminar
+usecase "Ver Tareas Pendientes" as UC_VerPendientes
+usecase "Ver Tareas Hechas" as UC_VerHechas
+
+Usuario --> UC_Agregar
+Usuario --> UC_MarcarHecha
+Usuario --> UC_Eliminar
+Usuario --> UC_VerPendientes
+Usuario --> UC_VerHechas
+
+@enduml
